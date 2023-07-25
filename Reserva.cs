@@ -1,12 +1,25 @@
 using System;
+using System.Collections;
 
-class Reserva {
-    public int Id;
-    public int IdSala;
-    public int IdAluno;
-    public int idMonitor;
-    public datatime dataHoraReserva;
-    public StatusReserva status;
-    public bool emprestimo;
-}
+namespace Modelo
+{
+    // Enum para representar o status da reserva
+    public enum StatusReserva
+    {
+        Ativa,
+        Cancelada
+    }
+
+    // Classe Reserva
+    public class Reserva
+    {
+        public int Id { get; set; }
+        public int IdSala { get; set; }
+        public int IdAluno { get; set; }
+        public int IdMonitor { get; set; }
+        public DateTime DataHoraReserva { get; set; }
+        public StatusReserva Status { get; set; }
+        public bool Emprestimo { get; set; }
+        public int QtdAlunos { get; set; }
+    }
 }

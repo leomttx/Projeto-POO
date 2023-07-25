@@ -1,0 +1,16 @@
+C:\Users\20221014040020\Desktop\Projeto-POO\obj\Debug\net5.0\Projeto-POO.csproj.AssemblyReference.cache
+C:\Users\20221014040020\Desktop\Projeto-POO\obj\Debug\net5.0\Projeto-POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20221014040020\Desktop\Projeto-POO\obj\Debug\net5.0\Projeto-POO.AssemblyInfoInputs.cache
+C:\Users\20221014040020\Desktop\Projeto-POO\obj\Debug\net5.0\Projeto-POO.AssemblyInfo.cs
+C:\Users\20221014040020\Desktop\Projeto-POO\obj\Debug\net5.0\Projeto-POO.csproj.CoreCompileInputs.cache
+C:\Users\20221014040020\Desktop\Projeto-POO\bin\Debug\net5.0\Projeto-POO.exe
+C:\Users\20221014040020\Desktop\Projeto-POO\bin\Debug\net5.0\Projeto-POO.deps.json
+C:\Users\20221014040020\Desktop\Projeto-POO\bin\Debug\net5.0\Projeto-POO.runtimeconfig.json
+C:\Users\20221014040020\Desktop\Projeto-POO\bin\Debug\net5.0\Projeto-POO.runtimeconfig.dev.json
+C:\Users\20221014040020\Desktop\Projeto-POO\bin\Debug\net5.0\Projeto-POO.dll
+C:\Users\20221014040020\Desktop\Projeto-POO\bin\Debug\net5.0\ref\Projeto-POO.dll
+C:\Users\20221014040020\Desktop\Projeto-POO\bin\Debug\net5.0\Projeto-POO.pdb
+C:\Users\20221014040020\Desktop\Projeto-POO\obj\Debug\net5.0\Projeto-POO.dll
+C:\Users\20221014040020\Desktop\Projeto-POO\obj\Debug\net5.0\ref\Projeto-POO.dll
+C:\Users\20221014040020\Desktop\Projeto-POO\obj\Debug\net5.0\Projeto-POO.pdb
+C:\Users\20221014040020\Desktop\Projeto-POO\obj\Debug\net5.0\Projeto-POO.genruntimeconfig.cache
