@@ -90,16 +90,24 @@ public class Program1
         List<Monitor> monitores = NMonitor.MonitorListar();
         foreach (var monitor in monitores)
         {
-            Console.WriteLine("ID: " + monitor.Id + ", Matrícula: " + monitor.Matricula + ", Senha: " + monitor.Senha);
+            Console.WriteLine("----LISTANDO MONITORES----");
+            Console.WriteLine(" ID: " + monitor.Id);
+            Console.WriteLine(" Nome: " + monitor.Nome);
+            Console.WriteLine(" Matrícula: " + monitor.Matricula);
+            Console.WriteLine(" Senha " + monitor.Senha);
         }
     }
 
     private static void InserirMonitor()
     {
+        Console.WriteLine("----INSERINDO MONITORES----");
         Monitor monitor = new Monitor();
 
         Console.Write("ID: ");
         monitor.Id = int.Parse(Console.ReadLine());
+
+        Console.Write("Nome: ");
+        monitor.Nome = (Console.ReadLine());
 
         Console.Write("Matrícula: ");
         monitor.Matricula = Console.ReadLine();
@@ -110,22 +118,56 @@ public class Program1
         NMonitor.MonitorInserir(monitor);
         Console.WriteLine("Monitor inserido com sucesso!");
     }
+    public static void MonitorAlterar(){
+        
+        int id;
+        string nome, mat, senha;
+
+        Console.WriteLine("----ALTERANDO MONITOR----");
+
+        Console.Write("Digite o ID do MONITOR a ser Alterado: ");
+        id = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Altere o nome do Monitor: ");
+        nome = Console.ReadLine();
+
+        Console.WriteLine("Altere Matricula do Monitor: ");
+        mat = Console.ReadLine();
+
+        Console.WriteLine("Altere a senha do Monitor: ");
+        senha = Console.ReadLine();
+
+        Monitor monitor = new Monitor {Id = id, Nome = nome, Matricula = mat, Senha = senha};
+        NMonitor.MonitorAlterar(monitor);
+
+        Console.WriteLine("Monitor alterado com sucesso!");
+    }
 
     private static void ExcluirMonitor()
     {
+        Console.WriteLine("----EXCLUINDO MONITOR----");
         Console.Write("Digite o ID do monitor a ser excluído: ");
         int id = int.Parse(Console.ReadLine());
 
-        Monitor monitor = NMonitor.MonitorListar().Find(m => m.Id == id);
+        Monitor monitor = NMonitor.MonitorListar().Find(b => b.Id == id);
 
-        if (monitor != null)
-        {
-            NMonitor.MonitorExcluir(monitor);
-            Console.WriteLine("Monitor excluído com sucesso!");
+        Console.WriteLine($"O ID e o nome do Monitor que você quer excluir é: ID: {monitor.Id} NOME: {monitor.Nome}");
+        Console.Write("Digite 1 para SIM ou 0 para NÂO:");
+        int ctz = int.Parse(Console.ReadLine());
+        if (ctz == 1){
+
+            if (monitor != null)
+            {
+                NMonitor.MonitorAlterar(monitor);
+                Console.WriteLine("Monitor Alterado com sucesso!");
+            }
+            else
+            {
+                Console.WriteLine("Monitor não encontrado!");
+            }
         }
-        else
-        {
-            Console.WriteLine("Monitor não encontrado!");
+        else{
+            Console.WriteLine("Digite novamente a opção 12 para refazer o processo.");
         }
     }
 
@@ -190,7 +232,7 @@ public class Program1
         Console.WriteLine("Altere o curso do Aluno: ");
         curso = Console.ReadLine();
 
-        Aluno aluno = new Aluno {Nome = nome, Matricula = mat, NumContato = ctt, Curso = curso};
+        Aluno aluno = new Aluno {Id = id, Nome = nome, Matricula = mat, NumContato = ctt, Curso = curso};
         NAluno.AlunoAlterar(aluno);
 
         Console.WriteLine("Aluno alterado com sucesso!");

@@ -24,10 +24,23 @@ namespace Negocio
             monitores.Remove(b);
         }
 
+        public static Monitor MonitorListar(int id){
+            // Percorrer o vetor dos monitores e retornar o monitor com o id informado.
+            foreach (Monitor b in monitores)
+            {
+                if( b != null && b.Id == id) return b;
+            }
+            return null;
+        }
         public static void MonitorAlterar(Monitor b)
-        {
-            // Implemente o código para alterar um monitor na lista
-            // Você pode usar o Id do monitor para encontrá-lo na lista e fazer as alterações necessárias.
+        {   
+            Monitor idMonitor = MonitorListar(b.Id);
+            if (idMonitor!= null){
+                idMonitor.Id = b.Id;
+                idMonitor.Matricula = b.Matricula;
+                idMonitor.Nome = b.Nome;
+                idMonitor.Senha = b.Senha;
+            }
         }
     }
 }
