@@ -1,0 +1,15 @@
+C:\Users\55849\Documents\FACULDADE\Projeto - POO-FINAL\bin\Debug\net7.0\Projeto - POO-FINAL.exe
+C:\Users\55849\Documents\FACULDADE\Projeto - POO-FINAL\bin\Debug\net7.0\Projeto - POO-FINAL.deps.json
+C:\Users\55849\Documents\FACULDADE\Projeto - POO-FINAL\bin\Debug\net7.0\Projeto - POO-FINAL.runtimeconfig.json
+C:\Users\55849\Documents\FACULDADE\Projeto - POO-FINAL\bin\Debug\net7.0\Projeto - POO-FINAL.dll
+C:\Users\55849\Documents\FACULDADE\Projeto - POO-FINAL\bin\Debug\net7.0\Projeto - POO-FINAL.pdb
+C:\Users\55849\Documents\FACULDADE\Projeto - POO-FINAL\obj\Debug\net7.0\Projeto - POO-FINAL.csproj.AssemblyReference.cache
+C:\Users\55849\Documents\FACULDADE\Projeto - POO-FINAL\obj\Debug\net7.0\Projeto - POO-FINAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55849\Documents\FACULDADE\Projeto - POO-FINAL\obj\Debug\net7.0\Projeto - POO-FINAL.AssemblyInfoInputs.cache
+C:\Users\55849\Documents\FACULDADE\Projeto - POO-FINAL\obj\Debug\net7.0\Projeto - POO-FINAL.AssemblyInfo.cs
+C:\Users\55849\Documents\FACULDADE\Projeto - POO-FINAL\obj\Debug\net7.0\Projeto - POO-FINAL.csproj.CoreCompileInputs.cache
+C:\Users\55849\Documents\FACULDADE\Projeto - POO-FINAL\obj\Debug\net7.0\Projeto - POO-FINAL.dll
+C:\Users\55849\Documents\FACULDADE\Projeto - POO-FINAL\obj\Debug\net7.0\refint\Projeto - POO-FINAL.dll
+C:\Users\55849\Documents\FACULDADE\Projeto - POO-FINAL\obj\Debug\net7.0\Projeto - POO-FINAL.pdb
+C:\Users\55849\Documents\FACULDADE\Projeto - POO-FINAL\obj\Debug\net7.0\Projeto - POO-FINAL.genruntimeconfig.cache
+C:\Users\55849\Documents\FACULDADE\Projeto - POO-FINAL\obj\Debug\net7.0\ref\Projeto - POO-FINAL.dll

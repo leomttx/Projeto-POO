@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAluno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Aluno>
+    <Id>1</Id>
+    <Nome>Leonardo Teixeira Martins</Nome>
+    <Matricula>20221014040020</Matricula>
+    <NumContato>84 992197967</NumContato>
+    <Curso>TADS 2022.1</Curso>
+  </Aluno>
+</ArrayOfAluno>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfReserva xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Reserva>
+    <Id>1</Id>
+    <IdSala>2</IdSala>
+    <IdAluno>3</IdAluno>
+    <IdMonitor>7</IdMonitor>
+    <DataHoraReserva>2023-07-27T02:53:47.1578126-03:00</DataHoraReserva>
+    <Status>Ativa</Status>
+    <Emprestimo>true</Emprestimo>
+    <QtdAlunos>7</QtdAlunos>
+  </Reserva>
+  <Reserva>
+    <Id>2</Id>
+    <IdSala>2</IdSala>
+    <IdAluno>3</IdAluno>
+    <IdMonitor>7</IdMonitor>
+    <DataHoraReserva>2023-07-27T08:23:02.0004178-03:00</DataHoraReserva>
+    <Status>Ativa</Status>
+    <Emprestimo>true</Emprestimo>
+    <QtdAlunos>7</QtdAlunos>
+  </Reserva>
+</ArrayOfReserva>

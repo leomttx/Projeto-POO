@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMonitor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Monitor>
+    <Id>1</Id>
+    <Nome>leo</Nome>
+    <Matricula>2121</Matricula>
+    <Senha>2134</Senha>
+  </Monitor>
+</ArrayOfMonitor>
